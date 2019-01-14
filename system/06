@@ -1,0 +1,3 @@
+#systemctl restart ssh 
+#systemctl reastart ssh.service
+/usr/sbin/service ssh restart

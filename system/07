@@ -1,0 +1,4 @@
+
+#pgrp sshd
+#ps -fux | grep sshd
+ps aux | grep sshd

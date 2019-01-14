@@ -1,0 +1,4 @@
+il y a plusieurs moyens de verifier la version de la debian.
+Le fichier /etc/debian_version, qui donne juste le numero de la version.
+Le fichier /etc/issue qui donne juste le nom generique de la version
+Le fichier /etc/os-release, qui donne les informations les + detailles sur la version.

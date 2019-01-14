@@ -1,0 +1,3 @@
+#sudo systemctl stop ssh.service
+#systemctl stop ssh
+/usr/sbin/service ssh stop

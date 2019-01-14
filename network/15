@@ -1,0 +1,2 @@
+Modifier le fichier /etc/hosts en rajoutant l'adresse ip et l'url : echo '46.19.122.85 intra.42.fr' >> /etc/hosts
+Intra.42.fr pointera alors vers 16.19.122.85
