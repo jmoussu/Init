@@ -1,0 +1,4 @@
+#En graphique il sufit de choisir l'user avec la souris et de rentrer le bon password !
+#En SSH il faut faire :
+ssh USER_NAME@IP_PC
+#Pour connaitre IP_PC : hostname -i
