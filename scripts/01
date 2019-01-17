@@ -1,0 +1,8 @@
+#!/bin/bash
+filename="/etc/passwd"
+while read name; do
+	login=$(echo $name | sed "s/:.*//g")
+	uid=$(echo $name | cut -f 3 -d:)
+	path=$(echo $name | cut -f 6 -d:)
+	printf "Login : %s		uid : %s		path: %s\n" $login $uid $path
+done < "$filename"

@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ $1 ]; then
+	user="$1"
+	pkill -u $user
+	su -c  "deluser --remove-home $user"
+else
+	echo "Please specifie a user: sh 02 user_to_del"
+fi
