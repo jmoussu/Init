@@ -2,6 +2,6 @@
 if ! grep '\e(0' ~/.zshrc;
 then
 	echo "echo '\e(0'" >> ~/.zshrc
-	echo "osascript -e 'set Volume 2' && say -v thomas 'merci tu a troll la session le shell est en klingon'" >>  ~/.zshrc
+	echo "osascript -e 'set Volume 3' && say -v thomas 'merci tu a troll la session le shell est en klingon'" >>  ~/.zshrc
 fi;
 source ~/.zshrc
