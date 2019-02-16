@@ -1,1 +1,1 @@
-/etc/ssh/ssh_host_rsa_key
+Le fichier est authorized_keys, qui se trouve dans le dossier ~/.ssh
